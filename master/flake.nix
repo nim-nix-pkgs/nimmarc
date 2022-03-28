@@ -11,7 +11,6 @@
   inputs.src-NimMarc-master.ref   = "refs/heads/master";
   inputs.src-NimMarc-master.owner = "rsirres";
   inputs.src-NimMarc-master.repo  = "NimMarc";
-  inputs.src-NimMarc-master.dir   = "";
   inputs.src-NimMarc-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
